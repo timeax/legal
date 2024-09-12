@@ -1,0 +1,63 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build"
+    },
+    "devDependencies": {
+        "@headlessui/react": "^2.0.0",
+        "@inertiajs/react": "^1.0.0",
+        "@tailwindcss/forms": "^0.5.3",
+        "@types/node": "^18.13.0",
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.10",
+        "@vitejs/plugin-react": "^4.2.0",
+        "autoprefixer": "^10.4.12",
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0",
+        "postcss": "^8.4.31",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "sass": "^1.77.8",
+        "tailwindcss": "^3.2.1",
+        "typescript": "^5.0.2",
+        "vite": "^5.0"
+    },
+    "dependencies": {
+        "color": "^4.2.3",
+        "primereact": "^10.8.2"
+    },
+    "dweb": {
+        "watch": true,
+        "colors": {
+            "tailwind": "./resources/js/Assets/colors.js",
+            "scss": "./resources/js/Styles/utils/_colors.scss",
+            "source": "./resources/js/Styles/helper/colors.scss",
+            "cssRoots": "./resources/css/app.css",
+            "figma": false
+        },
+        "mediaQuery": {
+            "breakpoints": {
+                "3in": "320px",
+                "3-6in": "360px",
+                "3-7in": "376px",
+                "4in": "427px",
+                "5-7in": "576px",
+                "5in": "500px",
+                "7in": "720px",
+                "7-6in": "768px",
+                "8in": "800px",
+                "9in": "920px",
+                "9-9in": "992px",
+                "10in": "1024px",
+                "10-2in": "1280px",
+                "15in": "1536px",
+                "13in": "1366px",
+                "19in": "1920px"
+            },
+            "tailwind": "./tailwind/breakpoints.js",
+            "outDir": "./resources/js/Styles/mixins/_query.scss"
+        }
+    }
+}
