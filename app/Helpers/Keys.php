@@ -1,6 +1,3 @@
-<!--
-    This file contains all the Static keys that will exist in the project
--->
 
 <?php
 //--- Site

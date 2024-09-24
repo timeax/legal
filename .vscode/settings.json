@@ -1,0 +1,24 @@
+{
+  "files.exclude": {
+    ".editorconfig": true,
+    ".env.example": true,
+    ".git": true,
+    ".gitattributes": true,
+    ".gitignore": true,
+    "artisan": true,
+    "colors.theme.json": true,
+    "composer.lock": true,
+    "LICENSE": true,
+    "package-lock.json": true,
+    "package.json": true,
+    "phpunit.xml": true,
+    "postcss.config.js": true,
+    "README.md": true,
+    "storage": true,
+    "tailwind": true,
+    "tests": true,
+    "tsconfig.json": true,
+    "vite.config.js": true,
+    ".vscode": true
+  }
+}
